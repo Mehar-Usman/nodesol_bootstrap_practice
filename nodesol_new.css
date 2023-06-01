@@ -1,0 +1,197 @@
+
+
+.set-brightness {
+    filter: brightness(.3);
+}
+@media only screen and (max-width: 1023px) {
+    .navbar-nav{
+        background-color: black;
+        width: 100%;
+    }
+  }
+
+.FREE-QUOTE{
+    color: white;
+    background-color: blue;
+}
+.FREE-QUOTE:hover{
+    background-image: linear-gradient( to right, aqua, blue);
+}
+.nav-hov{
+    color: white;
+}
+.nav-hov:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.obj-cover {
+    object-fit: cover;
+}
+.Innovative-Quality{
+    font-size: 100px;
+    color: aqua;
+}
+.We-bring-cutting{
+    font-size: 100px;
+    color: aqua;
+}
+.set-background-img {
+    background-image: url('download.webp');
+    background-attachment: fixed;
+}
+.We-are{
+    font-size: 80px;
+}
+.NODESOL{
+    font-size: 100px;
+
+}
+.fg{
+    margin: 5px;
+}
+
+
+.set-linear-gradient-cards:hover{
+    background-image: linear-gradient( to bottom left, blue, aqua);
+}
+
+
+.icon-gradient {
+    background: -webkit-linear-gradient( blue, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.logo-setting {
+      background-color: whitesmoke;
+    }
+
+
+    @media only screen and (max-width: 578px) {
+        .Our-Technological{
+            margin-top: 40px;
+        }
+      }
+
+      @media only screen and (max-width: 578px) {
+        .node-js-setting{
+            padding: 15px;
+        }
+      }
+      @media only screen and (max-width:1500px) {
+        .word-press-logo{
+            width: 185px;
+        }
+      }
+      .logo-setting:hover{
+        background-color: aqua;
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+      .set-background-star-img{
+      background-image: url('bg-quasar.jpg');  
+      }
+    
+      .about-webp-shadow{
+        box-shadow: rgba(0.2, 0, 0, 0.2) 0px 60px 40px -7px;
+      }
+      .set-backround-video{
+        filter: brightness(0.2);
+      }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 40%;
+        box-sizing: border-box;
+      }
+      .ARE-YOU-READY{
+        background: -webkit-linear-gradient( blue, aqua);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 80px;x
+      }
+      .We-are-driven{
+        color: #8e8e8e;
+      }
+      @media only screen and (max-width: 578px) {
+        .ARE-YOU-READY{
+            font-size: 40px;
+        }
+      }
+
+      .been-working-with-Nodesol{
+        background-color: antiquewhite;
+      }
+    .Latest-Articles{
+      font-size: 65px;
+    }
+    .UX-Processes {
+      background-color: rgb(44, 42, 42);
+      color: white;
+    }
+    .UX-Processes:hover {
+      background-color: white;
+      text-decoration: none;
+      color: black;
+    }
+    .color-set-for-latest-articles{
+      color: white;
+    }
+    .three-icon-color{
+      background: -webkit-linear-gradient( yellow, aqua,blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .Get-in-touch{
+      color: #8e8e8e;
+    }
+    .Get-in-touch:hover{
+      color: blue;
+    }
+.We-are-a-values{
+  color: #8e8e8e;
+}
+.copyright-fotter-setting{
+  background-color: rgb(24, 23, 23);
+  color: #8e8e8e;
+}
+.gradient-border {
+  border: 5px solid;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+}
+
+button.button {
+  padding: 1rem;
+  font-family: 'Avenir Next';
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, blue, aqua);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px black inset;
+}
+
+button.button:hover {
+  box-shadow: none;
+  /* color: white; */
+}
+
+
+#curved-div::after {
+  content: '';
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  transform: rotate(225deg);
+  z-index: 1;
+  border-radius: 80px;
+}
